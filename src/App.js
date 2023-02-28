@@ -116,7 +116,8 @@ class App extends Component {
               id={window.$secondaryLanguageIconId}
             ></span>
           </div>
-        </div>
+        </div> 
+        */
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}
