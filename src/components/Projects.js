@@ -56,6 +56,43 @@ class Projects extends Component {
           <div className="col-md-12 mx-auto">
             <div className="row mx-auto">{projects}</div>
           </div>
+          
+        <div className="col-md-12 mx-auto text-center language">
+          <div
+            onClick={() =>
+              this.applyPickedLanguage(
+                window.$primaryLanguage,
+                window.$secondaryLanguageIconId
+              )
+            }
+            style={{ display: "inline" }}
+          >
+            <span
+              className="iconify language-icon mr-5"
+              data-icon="noto-v1:floppy-disk"
+              data-inline="false"
+              id={window.$primaryLanguageIconId}
+            ></span>
+          </div>
+          <div
+            onClick={() =>
+              this.applyPickedLanguage(
+                window.$secondaryLanguage,
+                window.$primaryLanguageIconId
+              )
+            }
+            style={{ display: "inline" }}
+          >
+            <span
+              className="iconify language-icon"
+              data-icon="noto-v1:artist-palette"
+              data-inline="false"
+              id={window.$secondaryLanguageIconId}
+              
+            ></span>
+          </div>
+        </div> 
+        
           <ProjectDetailsModal
             show={this.state.detailsModalShow}
             onHide={detailsModalClose}

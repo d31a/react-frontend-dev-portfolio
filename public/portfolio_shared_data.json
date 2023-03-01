@@ -1,6 +1,6 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
+      "name": "Ben Bagley",
       "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
       "social": [
         {
@@ -14,7 +14,7 @@
           "class": "fab fa-instagram"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "myProfile.png"
     },
     "skills": {
       "icons": [

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
+import { TypeAnimation } from 'react-type-animation';
 
 class Header extends Component {
   titles = [];
@@ -25,6 +26,8 @@ class Header extends Component {
   }
 
   render() {
+
+
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
       this.titles = this.props.sharedData.titles.map(x => [ x.toUpperCase(), 1500 ] ).flat();
@@ -35,19 +38,37 @@ class Header extends Component {
     }, (props, prevProp) => true);
 
     return (
-      <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
+      <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>       
         <div className="row aligner" style={{height: '100%'}}>
-          <div className="col-md-12">
-            <div>
-              <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
-              <br/>
-              <h1 className="mb-0">
-                <Typical steps={[name]} wrapper="p" />
-              </h1>
-              <div className="title-container">
-                <HeaderTitleTypeAnimation />
-              </div>
-              <Switch
+          <div className="">
+        
+              <div className="container"> 
+                <div className="monitor">  
+                    <div className="monitor--container">
+                    
+                            <p>var benBagley = </p>
+                            <TypeAnimation
+                            sequence={[
+                                '"Web Developer";',
+                                2000, // Waits 1s
+                                '"Web Designer";',
+                                2000, // Waits 2s
+                                () => {
+                                console.log('Done typing!'); // Place optional callbacks anywhere in the array
+                                }
+                            ]}
+                            wrapper="div"
+                            cursor={true}
+                            repeat={Infinity}
+                              //style={{ fontSize: '2em' }}
+                            />
+                               
+                            
+                      </div>
+                    </div>
+                  </div>
+
+                  <Switch
                 checked={this.state.checked}
                 onChange={this.onThemeSwitchChange}
                 offColor="#baaa80"
@@ -58,12 +79,12 @@ class Header extends Component {
                 uncheckedIcon={
                   <span
                     className="iconify"
-                    data-icon="twemoji:owl"
+                    data-icon="twemoji:crescent-moon"
                     data-inline="false"
                     style={{
                       display: "block",
                       height: "100%",
-                      fontSize: 25,
+                      fontSize: 20,
                       textAlign: "end",
                       marginLeft: "20px",
                       color: "#353239",
@@ -73,12 +94,12 @@ class Header extends Component {
                 checkedIcon={
                   <span
                     className="iconify"
-                    data-icon="noto-v1:sun-with-face"
+                    data-icon="noto-v1:sun"
                     data-inline="false"
                     style={{
                       display: "block",
                       height: "100%",
-                      fontSize: 25,
+                      fontSize: 20,
                       textAlign: "end",
                       marginLeft: "10px",
                       color: "#353239",
@@ -87,10 +108,13 @@ class Header extends Component {
                 }
                 id="icon-switch"
               />
+             
+            
             </div>
           </div>
-        </div>
+      
       </header>
+      
     );
   }
 }
