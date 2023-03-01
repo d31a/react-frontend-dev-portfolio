@@ -28,7 +28,7 @@ class About extends Component {
                   <img
                     height="auto"
                     src={profilepic}
-                    alt="Avatar placeholder"
+                    alt="Ben Bagley Profile Pic"
                   />
                   <Icon
                     icon={angularIcon}
@@ -52,19 +52,22 @@ class About extends Component {
                   <div className="card-header">
                     <span
                       className="iconify"
-                      data-icon="emojione:red-circle"
+                      data-icon="fluent-emoji-high-contrast:red-circle"
+                      color="#cc6b49"
                       data-inline="false"
                     ></span>{" "}
                     &nbsp;{" "}
                     <span
                       className="iconify"
-                      data-icon="twemoji:yellow-circle"
+                      data-icon="fluent-emoji-high-contrast:red-circle"
+                      color="#D0A04C"
                       data-inline="false"
                     ></span>{" "}
                     &nbsp;{" "}
                     <span
                       className="iconify"
-                      data-icon="twemoji:green-circle"
+                      data-icon="fluent-emoji-high-contrast:red-circle"
+                      color="#73BCA7"
                       data-inline="false"
                     ></span>
                   </div>
@@ -80,7 +83,17 @@ class About extends Component {
                     <span className="wave">{hello} :) </span>
                     <br />
                     <br />
-                    {about}
+                    {about} 
+                    <span className="iconify" 
+                    data-icon="twemoji:backhand-index-pointing-right" 
+                    data-inline="false"
+                    ></span>
+                    <a href="mailto:benbagley90@gmail.com">
+                    <span className="iconify" 
+                    data-icon="twemoji:e-mail" 
+                    data-inline="false"
+                    ></span></a>
+                    
                   </div>
                 </div>
               </div>

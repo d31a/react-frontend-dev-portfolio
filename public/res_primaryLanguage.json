@@ -1,18 +1,18 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Ben Bagley. I'm a web developer and designer from the UK. I like to combine my love of cool designs with functional code. I'm passionate about learning new technologies and creating new things. I'm also a big fan of open source software and I'm always looking for new projects to contribute to. I'm currently looking for a new role, so if you think I'd be a good fit for your team, please get in touch.",
       "section_name": {
         "about": "About me",
-        "projects": "Projects",
+        "projects": "Development Projects",
         "skills": "Skills",
         "experience": "Experience"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
+        "title": "React Projects",
+        "startDate": "2022",
         "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
         "images": [
           "images/portfolio/animal-shelter/p1.jpg",

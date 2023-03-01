@@ -82,6 +82,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        
         <Header sharedData={this.state.sharedData.basic_info} />
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
@@ -91,6 +92,48 @@ class App extends Component {
           resumeProjects={this.state.resumeData.projects}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
+
+        {/*Change this so it changes projects -- not language -- on button click */}
+        <div className="col-md-12 mx-auto text-center project-switch">
+          <div
+            onClick={() =>
+              this.applyPickedLanguage(
+                window.$primaryLanguage,
+                window.$secondaryLanguageIconId
+              )
+            }
+            style={{ display: "inline" }}
+          >
+            <span
+              className="iconify language-icon mr-5"
+              data-icon="fluent-emoji-high-contrast:computer-disk"
+              color="#735646"
+              data-inline="false"
+              alt="Coding Projects"
+              id={window.$primaryLanguageIconId}
+            ></span>
+          </div>
+          <div
+            onClick={() =>
+              this.applyPickedLanguage(
+                window.$secondaryLanguage,
+                window.$primaryLanguageIconId
+              )
+            }
+            style={{ display: "inline" }}
+          >
+            <span
+              className="iconify language-icon"
+              data-icon="fluent-emoji-high-contrast:artist-palette"
+              color="#735646"
+              data-inline="false"
+              alt="Design Projects"
+              id={window.$secondaryLanguageIconId}
+              
+            ></span>
+          </div>
+        </div> 
+
         <Skills
           sharedSkills={this.state.sharedData.skills}
           resumeBasicInfo={this.state.resumeData.basic_info}

@@ -1,6 +1,34 @@
 @import '../src/scss/themes/theme-dark.scss';
 @import '../src/scss/themes/theme-light.scss';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+/* Variables */
+
+$retro-cream: rgba(242,235,201,1);
+$retro-brown: rgba(115,86,70,1); 
+$retro-red: rgba(204,107,73,1); 
+$retro-yellow: rgba(208,160,76,1); 
+$retro-blue: rgba(115,188,167,1); 
+$retro-green-50: rgba(235,237,236,1);
+$retro-green-100: rgba(193,199,197,1);
+$retro-green-200: rgba(163,172,169,1);
+$retro-green-300: rgba(122,134,130,1);
+$retro-green-400: rgba(96,111,105,1);
+$retro-green-500: rgba(56,75,68,1);
+$retro-green-600: rgba(51,68,62,1);
+$retro-green-700: rgba(40,53,48,1);
+$retro-green-800: rgba(31,41,37,1);
+$retro-green-900: rgba(24,32,29,1);
+
+/* background  */
+$retro-cream-a50: rgba(239,225,189,1);
+
+/* background header  */
+$retro-cream-a100: rgba(233,213,161,1);
+
+
 
 html {
 	font-size: 62.5%;
@@ -20,14 +48,10 @@ html {
 }
 
 .title-styles {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	font-size: 250%;
 }
 
-.header-icon {
-	height: 150px;
-	width: 150px;
-}
 
 header {
 	position: relative;
@@ -38,14 +62,22 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-color: $retro-cream-a100;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	padding-top: 150px;
+	padding-top: 20px;
 	padding-bottom: 0;
 }
+
+.switch-container {
+	position: absolute;
+	top: 2rem;
+	right: 5rem;
+}
+
+
 
 .language-icon {
 	font-size: 50px;
@@ -72,11 +104,12 @@ header {
 	border-radius: 8px;
 }
 
-.language {
-	font-size: 25px;
-	background-color: #e9d5a1;
-	padding-bottom: 10px;
-	padding-top: 80px;
+.project-switch {
+
+	background-color: #efe1bd;
+	padding-bottom: 8rem;
+	padding-top: 0px;
+	margin: 0;
 }
 
 header h1 {
@@ -114,7 +147,7 @@ header h1 {
 
 #about h1 {
 	padding-top: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
+	font: 18px/24px 'Rubik', bold, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: black;
@@ -163,7 +196,7 @@ header h1 {
 
 .project-title-settings {
 	margin-top: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
+	font: 16px 'Rubik', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: black;
@@ -173,6 +206,7 @@ header h1 {
 .polaroid img {
 	display: block;
 	max-width: 200px;
+	background-color: lightseagreen;
 }
 
 .polaroid span {
@@ -229,25 +263,26 @@ header h1 {
 }
 
 .main-badge {
-	font-size: 13px !important;
+	font-size: 1.5rem !important;
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
 	background-color: #AE944F !important;
 	color: white;
 	font-weight: lighter !important;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-family: 'VT323', 'Courier New', Courier, monospace;
 }
 
 .experience-badge {
-	font-size: 11px !important;
+	font-size: 1.5rem !important;
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
 	background-color: #f9f5e9 !important;
 	color: black;
 	font-weight: lighter !important;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-family: 'VT323', 'Courier New', Courier, monospace;
+	letter-spacing: 0.05rem;
 }
 
 .vertical-timeline-element-date {
@@ -288,7 +323,7 @@ header h1 {
 }
 
 .bars li em {
-	font: 15px 'opensans-bold', sans-serif;
+	font: 15px 'Rubik', sans-serif;
 	color: #313131;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -342,7 +377,7 @@ header h1 {
 
 #portfolio {
 	background: #efe1bd;
-	padding-bottom: 5%;
+	padding-bottom: 0%;
 }
 
 .portfolio-item {
@@ -377,17 +412,23 @@ header h1 {
 }
 
 #skills {
-	background: #1F1F1F;
+	background: $retro-green-900;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
 	padding-bottom: 10%;
+		p { 
+			font-size: 3rem;	
+			font-weight: lighter !important;
+			font-family: 'VT323', 'Courier New', Courier, monospace;
+			letter-spacing: 0.05rem;
+		}
 }
 
 .section-title {
 	padding-top: 5%;
 	padding-bottom: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
+	font: 18px/24px 'Rubik', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: #fff;
@@ -399,10 +440,11 @@ header h1 {
 	color: white;
 	text-align: center;
 	position: relative;
+	
 }
 
 footer {
-	background: #1F1F1F;
+	background: $retro-green-900;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
@@ -435,7 +477,7 @@ footer a:focus {
     align-items: center;
     flex-direction: column;
     font-family: 'VT323', monospace;
-    font-size: 2.1em;
+    font-size: 2.5em;
 	color: #73BDA8;
 }
 

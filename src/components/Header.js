@@ -1,7 +1,9 @@
 import React, { Component } from "react";
-import Typical from "react-typical";
 import Switch from "react-switch";
 import { TypeAnimation } from 'react-type-animation';
+import { Icon } from '@iconify/react';
+import sunIcon from '@iconify/icons-pixelarticons/sun';
+import moonStars from '@iconify/icons-pixelarticons/moon-stars';
 
 class Header extends Component {
   titles = [];
@@ -33,15 +35,62 @@ class Header extends Component {
       this.titles = this.props.sharedData.titles.map(x => [ x.toUpperCase(), 1500 ] ).flat();
     }
 
-    const HeaderTitleTypeAnimation = React.memo( () => {
-      return <Typical className="title-styles" steps={this.titles} loop={50} />
-    }, (props, prevProp) => true);
 
     return (
+     
+              
+        
+      
       <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>       
+       
+       <div className="switch-container"> 
+       <Switch 
+                checked={this.state.checked}
+                onChange={this.onThemeSwitchChange}
+                offColor="#baaa80"
+                onColor="#353535"
+                className="react-switch mx-auto"
+                width={85}
+                height={35}
+                uncheckedIcon={
+                  <Icon
+                    className="iconify"
+                    icon={moonStars} 
+                    data-inline="false"
+                    style={{
+                      display: "block",
+                      height: "100%",
+                      fontSize: 24,
+                      textAlign: "end",
+                      marginLeft: "20px",
+                      color: "white",
+                    }}
+                  />
+                }
+                checkedIcon={
+                  <Icon
+                    className="iconify"
+                    icon={sunIcon}
+                    color= "#d0a04c" 
+                    data-inline="false"
+                    style={{
+                      display: "block",
+                      height: "100%",
+                      fontSize: 24,
+                      textAlign: "end",
+                      marginLeft: "10px",
+                      color: "#d0a04c",
+                    }}
+                  />
+                 
+                }
+                id="icon-switch"
+              />
+              </div>
+
+      
         <div className="row aligner" style={{height: '100%'}}>
           <div className="">
-        
               <div className="container"> 
                 <div className="monitor">  
                     <div className="monitor--container">
@@ -62,59 +111,15 @@ class Header extends Component {
                             repeat={Infinity}
                               //style={{ fontSize: '2em' }}
                             />
-                               
                             
-                      </div>
                     </div>
                   </div>
-
-                  <Switch
-                checked={this.state.checked}
-                onChange={this.onThemeSwitchChange}
-                offColor="#baaa80"
-                onColor="#353535"
-                className="react-switch mx-auto"
-                width={90}
-                height={40}
-                uncheckedIcon={
-                  <span
-                    className="iconify"
-                    data-icon="twemoji:crescent-moon"
-                    data-inline="false"
-                    style={{
-                      display: "block",
-                      height: "100%",
-                      fontSize: 20,
-                      textAlign: "end",
-                      marginLeft: "20px",
-                      color: "#353239",
-                    }}
-                  ></span>
-                }
-                checkedIcon={
-                  <span
-                    className="iconify"
-                    data-icon="noto-v1:sun"
-                    data-inline="false"
-                    style={{
-                      display: "block",
-                      height: "100%",
-                      fontSize: 20,
-                      textAlign: "end",
-                      marginLeft: "10px",
-                      color: "#353239",
-                    }}
-                  ></span>
-                }
-                id="icon-switch"
-              />
-             
-            
+                </div>
             </div>
           </div>
-      
       </header>
-      
+  
+
     );
   }
 }

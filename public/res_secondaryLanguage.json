@@ -4,14 +4,14 @@
       "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
       "section_name": {
         "about": "O mnie",
-        "projects": "Projekty",
+        "projects": "Design Projects",
         "skills": "Umiejętności",
         "experience": "Doświadczenie"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
+        "title": "Saltwells Brewery",
         "startDate": "2020",
         "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
         "images": [
@@ -35,7 +35,7 @@
         ]
       },
       {
-        "title": "Photography",
+        "title": "Blankly: Wireframing an App",
         "startDate": "2018",
         "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
         "images": [
