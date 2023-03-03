@@ -19,34 +19,34 @@ class App extends Component {
     };
   }
 
-  applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
-    this.swapCurrentlyActiveLanguage(oppositeLangIconId);
-    document.documentElement.lang = pickedLanguage;
+  applyPickedResume(pickedResume, oppositeResIconId) {
+    this.swapCurrentlyActiveResume(oppositeResIconId);
+    document.documentElement.lang = pickedResume;
     var resumePath =
-      document.documentElement.lang === window.$primaryLanguage
-        ? `res_primaryLanguage.json`
-        : `res_secondaryLanguage.json`;
+      document.documentElement.lang === window.$primaryResume
+        ? `res_developer.json`
+        : `res_designer.json`;
     this.loadResumeFromPath(resumePath);
   }
 
-  swapCurrentlyActiveLanguage(oppositeLangIconId) {
-    var pickedLangIconId =
-      oppositeLangIconId === window.$primaryLanguageIconId
-        ? window.$secondaryLanguageIconId
-        : window.$primaryLanguageIconId;
+  swapCurrentlyActiveResume(oppositeResIconId) {
+    var pickedResIconId =
+      oppositeResIconId === window.$primaryResumeIconId
+        ? window.$secondaryResumeIconId
+        : window.$primaryResumeIconId;
     document
-      .getElementById(oppositeLangIconId)
-      .removeAttribute("filter", "brightness(40%)");
+      .getElementById(oppositeResIconId)
+      .removeAttribute("filter", "brightness(60%)");
     document
-      .getElementById(pickedLangIconId)
-      .setAttribute("filter", "brightness(40%)");
+      .getElementById(pickedResIconId)
+      .setAttribute("filter", "brightness(60%)");
   }
 
   componentDidMount() {
     this.loadSharedData();
-    this.applyPickedLanguage(
-      window.$primaryLanguage,
-      window.$secondaryLanguageIconId
+    this.applyPickedResume(
+      window.$primaryResume,
+      window.$secondaryResumeIconId
     );
   }
 
@@ -94,41 +94,40 @@ class App extends Component {
         />
 
         {/*Change this so it changes projects -- not language -- on button click */}
+        
         <div className="col-md-12 mx-auto text-center project-switch">
           <div
             onClick={() =>
-              this.applyPickedLanguage(
-                window.$primaryLanguage,
-                window.$secondaryLanguageIconId
+              this.applyPickedResume(
+                window.$primaryResume,
+                window.$secondaryResumeIconId
               )
             }
             style={{ display: "inline" }}
           >
             <span
-              className="iconify language-icon mr-5"
-              data-icon="fluent-emoji-high-contrast:computer-disk"
-              color="#735646"
+              className="iconify project-icon mr-5"
+              data-icon="pixelarticons:code"
               data-inline="false"
               alt="Coding Projects"
-              id={window.$primaryLanguageIconId}
+              id={window.$primaryResumeIconId}
             ></span>
           </div>
           <div
             onClick={() =>
-              this.applyPickedLanguage(
-                window.$secondaryLanguage,
-                window.$primaryLanguageIconId
+              this.applyPickedResume(
+                window.$secondaryResume,
+                window.$primaryResumeIconId
               )
             }
             style={{ display: "inline" }}
           >
             <span
-              className="iconify language-icon"
-              data-icon="fluent-emoji-high-contrast:artist-palette"
-              color="#735646"
+              className="iconify project-icon"
+              data-icon="pixelarticons:paint-bucket"
               data-inline="false"
               alt="Design Projects"
-              id={window.$secondaryLanguageIconId}
+              id={window.$secondaryResumeIconId}
               
             ></span>
           </div>

@@ -7,10 +7,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 /* GLOBAL VARIABLES */
 
-window.$primaryLanguage = 'en';
-window.$secondaryLanguage = 'pl';
-window.$primaryLanguageIconId = 'primary-lang-icon';
-window.$secondaryLanguageIconId = 'secondary-lang-icon';
+window.$primaryResume = 'en';
+window.$secondaryResume = 'en';
+window.$primaryResumeIconId = 'primary-res-icon';
+window.$secondaryResumeIconId = 'secondary-res-icon';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 serviceWorker.register();

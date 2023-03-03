@@ -1,9 +1,18 @@
 body[data-theme="dark"] {  
 
    @import '../src/scss/dark-slider.scss';
+   @import '../src/scss/variables.scss';
 
+    .project-switch {
+         background: $retro-green-600;
+      }
+
+      .react-swtich-bg {
+         background-color: $retro-green-900 !important;
+      }
+   
    .slider-tab {
-      background-color: #8C8C8C;
+      background-color: $retro-green-800;
    }
 
    .title-styles {
@@ -33,42 +42,43 @@ body[data-theme="dark"] {
    }
 
    header {
-      background-color: #494949;
+      background-color: $retro-green-700;
       h1 {
          color: white;
       }
    }
 
    #about {
-      background-color: #7f7f7f;
+      background-color: $retro-green-400;
       h1 span {
          color: white;
       }
       .polaroid span {
-         background:  #6d6d6d;
+         background: $retro-green-50;
       }
       .card {
-         background: #6d6d6d;
+         background: $retro-green-700;
          color: white;
       }
    }
 
    #portfolio {
-      background: #5b5b5b;
+      background: $retro-green-600;
       .section-title {
          color: white !important;
       }
       .foto div {
-         background: #6d6d6d;
+         background: $retro-green-50;;
       }
       .project-title-settings {
-         color: white;
+         color: $retro-green-700;
       }
+     
    }
 
    #resume {
       filter: brightness(80%);
-      background: #5b5b5b;
+      background: $retro-green-600;
       .section-title {
          color: white !important;
       }

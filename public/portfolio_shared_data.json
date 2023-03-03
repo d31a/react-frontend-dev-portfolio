@@ -29,18 +29,13 @@
           "level": "95"
         },
         {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
-        },
-        {
           "name": "JavaScript",
           "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "PHP",
+          "class": "devicon-php-plain",
           "level": "70"
         },
         {
@@ -62,6 +57,26 @@
           "name": "MySql",
           "class": "devicon-mysql-plain",
           "level": "60"
+        },
+        {
+          "name": "WordPress",
+          "class": "devicon-wordpress-plain",
+          "level": "80"
+        },
+        {
+          "name": "Photoshop",
+          "class": "devicon-photoshop-plain",
+          "level": "80"
+        },
+        {
+          "name": "Illustrator",
+          "class": "devicon-photoshop-plain",
+          "level": "95"
+        },
+        {
+          "name": "Figma",
+          "class": "devicon-figma-plain",
+          "level": "80"
         }
       ]
     }

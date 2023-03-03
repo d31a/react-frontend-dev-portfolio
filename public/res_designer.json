@@ -1,19 +1,19 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Ben Bagley. I'm a web developer and designer from the UK. I like to combine my love of cool designs with functional code. I'm passionate about learning new technologies and creating new things. I'm also a big fan of open source software and I'm always looking for new projects to contribute to. I'm currently looking for a new role, so if you think I'd be a good fit for your team, please get in touch.",
-      "section_name": {
-        "about": "About me",
-        "projects": "Development Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
-    },
+    "description_header": "Hi",
+    "description": "👋 I'm Ben Bagley. I'm a web developer and designer from the UK. I like to combine my love of design with functional code. I'm passionate about learning new technologies and creating new things. I'm currently looking for a new role, so if you think I'd be a good fit for your team, please get in touch.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Development Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
     "projects": [
       {
-        "title": "React Projects",
-        "startDate": "2022",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Saltwells Brewery",
+        "startDate": "2020",
+        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
         "images": [
           "images/portfolio/animal-shelter/p1.jpg",
           "images/portfolio/animal-shelter/p2.jpg"
@@ -35,9 +35,9 @@
         ]
       },
       {
-        "title": "Photography",
+        "title": "Blankly: Wireframing an App",
         "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
         "images": [
           "images/portfolio/photography/p1.jpg",
           "images/portfolio/photography/p2.jpg"
@@ -57,7 +57,7 @@
       {
         "title": "3D Object Viewer",
         "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
         "images": [
           "images/portfolio/adventure/p1.jpg",
           "images/portfolio/adventure/p2.jpg"
@@ -83,7 +83,7 @@
       {
         "company": "DefOpenSource",
         "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "years": "10.2019 - obecnie",
         "mainTech": [
           "Angular 8/9/10"
         ],
@@ -94,22 +94,20 @@
           "Bootstrap",
           "MDBootstrap",
           "EF Core",
-          ".NET Core",
-          "SignalR",
           "Angular Material"
         ]
       },
       {
         "company": "Serros Solutions",
-        "title": "Intern",
+        "title": "Stażystka",
         "years": "01.2018 - 09.2019",
         "mainTech": [
           "Angular 7/8"
         ],
         "technologies": [
+          "REST API",
           "RxJS",
-          "Django",
-          "PHP",
+          "Swagger",
           "JavaScript",
           "DHTMLX Gantt"
         ]
