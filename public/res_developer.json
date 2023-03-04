@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Ben Bagley. I'm a web developer and designer from the UK. I like to combine my love of design with functional code. I'm passionate about learning new technologies and creating new things. I'm currently looking for a new role, so if you think I'd be a good fit for your team, please get in touch.",
+      "description": "👋 I'm Ben Bagley, a web developer and designer from the UK. I like to combine my love of design with functional code. I'm passionate about learning new technologies and creating new things. Currently looking for a new role, so if you think I'd be a good fit for your team, please get in touch.",
       "section_name": {
         "about": "About me",
         "projects": "Development Projects",
@@ -11,53 +11,64 @@
     },
     "projects": [
       {
-        "title": "React Projects",
+        "title": "React Calculator App",
         "startDate": "2022",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "description": "This is an improvement of the Meta React Basics course calculator created as a final project. Although this calculator was functional, it wasn't very efficient, so the challenge was to create a better functioning calculator. The end result is a calculator that creates calculations by storing the properties of the previous value, current value and operator values using the React state hook. The logic flow was co-ordinated using a logic flow diagram, and then executed.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/react/calc/react-calc-glass.gif",
+          "images/portfolio/react/calc/sample-flow.jpg"
         ],
-        "url": "",
+        "url": "https://codesandbox.io/s/stoic-kare-4yi4iw?fontsize=14&hidenavigation=1&theme=dark",
         "technologies": [
+         
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-html5-plain",
+            "name": "HTML"
           },
+         
+         
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-css3-plain",
+            "name": "CSS"
           },
+         
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
+            "class": "devicon-react-plain",
             "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Open Weather App (API)",
+        "startDate": "2023",
+        "description": "This React application fetches local weather data using the OpenWeatherMap API, displaying it to the user through an easy-to-use interface. The background color changes based on the temperature, which is determined by a ternary if/else statement. The app also displays weather information using an icon, temperature, location, and weather description. The use of React state and useEffect hooks enabled me to efficiently manage the app's state and call the API.",
+        "images": [
+          "images/portfolio/react/weather/react-weather-api.gif",
+          "images/portfolio/react/weather/react-weather-api-2.png"
+        ],
+        "url": "https://react-weather-app-d31a.vercel.app/",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+         
+         
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          },
+         
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          }
+        ]
+      },
+      {
+        "title": "ICRR Development",
+        "startDate": "2023 - Current",
+        "description": "ICRR is a non-profit organisation who I have been working with since 2021. My responbilities include the design and development of their website, as well as the creation of the logo and branding. The website is built using WordPress, and I have used a combination of plugins and custom code to create the site.",
         "images": [
           "images/portfolio/adventure/p1.jpg",
           "images/portfolio/adventure/p2.jpg"

@@ -13,6 +13,11 @@ html {
 	-webkit-font-smoothing: antialiased;
 	margin: 0;
 	padding: 0;
+	
+}
+
+body {
+	color: $retro-green-800;
 }
 
 .aligner {
@@ -195,7 +200,7 @@ header {
 }
 
 .skills-tile {
-	background-color: transparentize(#F8F5F4, 0.95);
+	background-color: transparentize(lightseagreen, 0.75);
 	padding: 10px 10px 5px 10px;
 	width: 100px;
 	margin: 5px 0 5px 0;
@@ -285,7 +290,7 @@ header {
 /*slider styles*/
 
 .slider-image {
-	border: 5px solid #D7CAAA;
+	border: 5px solid $retro-yellow;
 }
 
 .slider-tab {
@@ -305,7 +310,7 @@ header {
 /*skills styles */
 
 #skills {
-	background: $retro-green-900;
+	background: $retro-blue;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
@@ -331,6 +336,7 @@ header {
 
 #resume {
 	background: #efe1bd;
+
 }
 
 .experience-icon {
@@ -339,12 +345,17 @@ header {
 	text-align: center;
 }
 
+.vertical-timeline-element-icon {
+	background-color: $retro-blue !important;
+}
+
+
 .main-badge {
 	font-size: 1.5rem !important;
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
+	background-color: $retro-blue !important;
 	color: white;
 	font-weight: lighter !important;
 	font-family: 'VT323', 'Courier New', Courier, monospace;
@@ -355,8 +366,8 @@ header {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #f9f5e9 !important;
-	color: black;
+	background-color: $retro-cream-a100 !important;
+	color: $retro-green-600;
 	font-weight: lighter !important;
 	font-family: 'VT323', 'Courier New', Courier, monospace;
 	letter-spacing: 0.05rem;
@@ -367,17 +378,7 @@ header {
 	margin: 0 !important;
 }
 
-@media only screen and (max-width: 1170px) {
-	.experience-icon {
-		font-size: 170%;
-		margin-top: 27%;
-		text-align: center;
-	}
-}
 
-.modal-inside .modal-content {
-	background: white;
-}
 
 .bars {
 	width: 95%;
@@ -427,31 +428,21 @@ header {
 	border-radius: 3px 0 0 3px;
 }
 
-/* other styles */
-
-.link-href {
-	color: black;
+@media only screen and (max-width: 1170px) {
+	.experience-icon {
+		font-size: 170%;
+		margin-top: 27%;
+		text-align: center;
+	}
 }
 
-.wave {
-	font-size: 160%;
+/* modal styles */ 
+
+
+
+.modal-inside .modal-content {
+	background: white;
 }
-
-
-#preview {
-	width: 500px;
-	background-color: #ebeaf5;
-	padding: 15px;
-	position: relative;
-	margin-bottom: 15%;
-}
-
-.center {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
 
 .modal-close {
 	text-align: right;
@@ -462,13 +453,19 @@ header {
 .close-icon {
 	color: black;
 	font-weight: lighter !important;
+	
 }
 
+
+
+
 .modal-description {
+	font-family: 'Rubik', sans-serif;
 	text-align: justify;
 	padding: 5px 5px 0 5px;
 	margin-bottom: 20px;
-	font-size: 12px;
+	font-size: 1.2rem;
+	letter-spacing: 0.05rem;
 }
 
 .awssld__next {
@@ -479,6 +476,36 @@ header {
 	outline: none !important;
 }
 
+
+// check what this does and remove if not needed
+#preview {
+	width: 400px;
+	background-color: #ebeaf5;
+	padding: 15px;
+	position: relative;
+	margin-bottom: 15%;
+}
+
+
+
+
+/* other styles */
+
+.link-href {
+	color: black;
+}
+
+.wave {
+	font-size: 160%;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
 .loader-bar-color {
 	color: black !important;
 }
@@ -488,7 +515,7 @@ header {
 /* footer styles */
 
 footer {
-	background: $retro-green-900;
+	background: $retro-green-400;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;

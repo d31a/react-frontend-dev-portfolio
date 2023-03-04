@@ -19,7 +19,11 @@ class ProjectDetailsModal extends Component {
               <span>
                 <div className="text-center">
                   <i className={icons.class} style={{ fontSize: "300%" }}>
-                    <p className="text-center" style={{ fontSize: "30%" }}>
+                    <p className="text-center" 
+                    style={{ 
+                      fontSize: "50%",
+                      fontFamily: "VT323, monospace"
+                     }}>
                       {icons.name}
                     </p>
                   </i>
@@ -47,25 +51,28 @@ class ProjectDetailsModal extends Component {
           <i className="fas fa-times fa-3x close-icon"></i>
         </span>
         <div className="col-md-12">
-          <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
+          <div className="col-md-12 mx-auto" style={{ paddingBottom: "50px" }}>
             <div className="slider-tab">
               <span
                 className="iconify slider-iconfiy"
-                data-icon="emojione:red-circle"
+                data-icon="fluent-emoji-high-contrast:red-circle"
                 data-inline="false"
+                color="#cc6b49"
                 style={{ marginLeft: "5px" }}
               ></span>{" "}
               &nbsp;{" "}
               <span
                 className="iconify slider-iconfiy"
-                data-icon="twemoji:yellow-circle"
+                data-icon="fluent-emoji-high-contrast:red-circle"
                 data-inline="false"
+                color="#D0A04C"
               ></span>{" "}
               &nbsp;{" "}
               <span
                 className="iconify slider-iconfiy"
-                data-icon="twemoji:green-circle"
+                data-icon="fluent-emoji-high-contrast:red-circle"
                 data-inline="false"
+                color="#73BCA7"
               ></span>
             </div>
             <AwesomeSlider
@@ -95,7 +102,7 @@ class ProjectDetailsModal extends Component {
             </h3>
             <p className="modal-description">{description}</p>
             <div className="col-md-12 text-center">
-              <ul className="list-inline mx-auto">{tech}</ul>
+              <ul className="list-inline mx-auto tech-desc">{tech}</ul>
             </div>
           </div>
         </div>

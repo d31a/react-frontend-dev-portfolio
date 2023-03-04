@@ -1,10 +1,10 @@
 {
     "basic_info": {
     "description_header": "Hi",
-    "description": "👋 I'm Ben Bagley. I'm a web developer and designer from the UK. I like to combine my love of design with functional code. I'm passionate about learning new technologies and creating new things. I'm currently looking for a new role, so if you think I'd be a good fit for your team, please get in touch.",
+    "description": "👋 I'm Ben Bagley, a web developer and designer from the UK. I like to combine my love of design with functional code. I'm passionate about learning new technologies and creating new things. Currently looking for a new role, so if you think I'd be a good fit for your team, please get in touch.",
     "section_name": {
       "about": "About me",
-      "projects": "Development Projects",
+      "projects": "Design Projects",
       "skills": "Skills",
       "experience": "Experience"
     }
@@ -13,7 +13,7 @@
       {
         "title": "Saltwells Brewery",
         "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+        "description": "Saltwells Brewery is a personal project I created for a conceptual local brewery. I designed the logo and branding in Adobe Illustrator and Photoshop using local heritage as inspiration for the overall beer design.",
         "images": [
           "images/portfolio/animal-shelter/p1.jpg",
           "images/portfolio/animal-shelter/p2.jpg"
@@ -21,23 +21,19 @@
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-illustrator-plain",
+            "name": "Adobe Illustrator"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-photoshop-plain",
+            "name": "Photoshop"
           }
         ]
       },
       {
         "title": "Blankly: Wireframing an App",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
+        "startDate": "2021",
+        "description": "Blankly is a personal project I created for CalArts Coursera UI/UX course whilst learning the fundementals of wireframing an app. I used Adobe XD to create the wireframes and prototype. Logo and branding in was completed in Adobe Illustrator.",
         "images": [
           "images/portfolio/photography/p1.jpg",
           "images/portfolio/photography/p2.jpg"
@@ -45,19 +41,19 @@
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-xd-plain",
+            "name": "Adobe XD"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-illustrator-plain",
+            "name": "Adobe Illustrator"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+        "title": "Logo Designs",
+        "startDate": "2020 - 2022",
+        "description": "I have created a number of logos for clients and personal projects. From sketching initial concepts, to brainstorming and then vectorising in Adobe Illustrator using a grid. The final logo is then exported in a variety of formats for use in print and digital media.",
         "images": [
           "images/portfolio/adventure/p1.jpg",
           "images/portfolio/adventure/p2.jpg"
@@ -65,16 +61,8 @@
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-illustrator-plain",
+            "name": "Adobe Illustrator"
           }
         ]
       }

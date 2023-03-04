@@ -7,8 +7,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 /* GLOBAL VARIABLES */
 
-window.$primaryResume = 'en';
-window.$secondaryResume = 'en';
+window.$primaryResume = 'en-uk';
+window.$secondaryResume = 'en-us';
 window.$primaryResumeIconId = 'primary-res-icon';
 window.$secondaryResumeIconId = 'secondary-res-icon';
 

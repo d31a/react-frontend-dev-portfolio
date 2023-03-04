@@ -1,7 +1,8 @@
 body[data-theme="light"] {
     @import '../src/scss/light-slider.scss';
+    @import '../src/scss/variables.scss';
  
     .slider-tab {
-       background-color: #D7CAAA;
+       background-color: $retro-brown;
     }
 }
