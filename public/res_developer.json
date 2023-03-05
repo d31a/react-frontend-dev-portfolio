@@ -92,12 +92,9 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
+        "company": "Freelance Developer",
         "title": "Front-End Developer",
         "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
         "technologies": [
           "REST API",
           "RxJS",
@@ -114,9 +111,6 @@
         "company": "Serros Solutions",
         "title": "Intern",
         "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
         "technologies": [
           "RxJS",
           "Django",
