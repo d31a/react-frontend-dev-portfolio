@@ -70,53 +70,88 @@
         "startDate": "2023 - Current",
         "description": "ICRR is a non-profit organisation who I have been working with since 2021. My responbilities include the design and development of their website, as well as the creation of the logo and branding. The website is built using WordPress, and I have used a combination of plugins and custom code to create the site.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/dev/icrr-sass-colors.gif",
+          "images/portfolio/dev/web-wireframes.gif"
         ],
-        "url": "https://github.com",
+  
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-html5-plain",
+            "name": "HTML"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-sass-plain",
+            "name": "SASS"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-wordpress-plain",
+            "name": "WordPress"
           }
         ]
       }
     ],
     "experience": [
+      
       {
-        "company": "Freelance Developer",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Ben Bagley Web Development & Design",
+        "title": "Freelance",
+        "years": "09.2021 - present",
+        "mainTech": [
+          "WordPress"
+        ],
         "technologies": [
-          "REST API",
-          "RxJS",
+          "APIs",
           "JavaScript",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "HTML/CSS",
+          "PHP",
+          "React",
+          "CMS",
+          "Adobe Suite",
+          "Figma",
+          "Git"
         ]
       },
+      
+      
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "The Development Manager",
+        "title": "Software Development Bootcamp",
+        "years": "11.2022 - 01.2023",
+        "mainTech": [
+          "Software Development"
+        ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
+          "C#",
+          "Databases",
+          "MySQL",
+          "SDLC",
+          "HTML/CSS",
           "JavaScript",
-          "DHTMLX Gantt"
+          "Version Control"
+        ]
+      },
+      
+     
+     
+      {
+        "company": "Dudley College of Technology",
+        "title": "BTEC Level 3 Graphic Design",
+        "years": "09.2008 - 07.2010",
+        "mainTech": [
+          "Graphic Design"
+        ],
+        "technologies": [
+          "Web Design",
+          "Print Design",
+          "Adobe Suite",
+          "Typography",
+          "Layout",
+          "Branding"
         ]
       }
     ]

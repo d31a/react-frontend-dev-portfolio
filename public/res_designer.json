@@ -15,10 +15,14 @@
         "startDate": "2020",
         "description": "Saltwells Brewery is a personal project I created for a conceptual local brewery. I designed the logo and branding in Adobe Illustrator and Photoshop using local heritage as inspiration for the overall beer design.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/design/saltwellssix.jpg",
+          "images/portfolio/design/saltwellsbeer.jpg",
+          "images/portfolio/design/saltwellscap.jpg",
+          "images/portfolio/design/saltwells-present.jpg",
+          "images/portfolio/design/saltwells3.jpg",
+          "images/portfolio/design/saltwells4.jpg",
+          "images/portfolio/design/saltwells5.jpg"
         ],
-        "url": "",
         "technologies": [
           {
             "class": "devicon-illustrator-plain",
@@ -30,15 +34,15 @@
           }
         ]
       },
+
       {
         "title": "Blankly: Wireframing an App",
         "startDate": "2021",
-        "description": "Blankly is a personal project I created for CalArts Coursera UI/UX course whilst learning the fundementals of wireframing an app. I used Adobe XD to create the wireframes and prototype. Logo and branding in was completed in Adobe Illustrator.",
+        "description": "Blankly is a personal project I created for CalArts Coursera UI/UX course whilst learning the fundementals of wireframing an app. I used Adobe XD to create the wireframes and prototype. Logo and branding was completed in Adobe Illustrator.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/design/blankly-map.gif",
+          "images/portfolio/design/blankly-proto.gif"
         ],
-        "url": "https://github.com",
         "technologies": [
           {
             "class": "devicon-xd-plain",
@@ -55,10 +59,14 @@
         "startDate": "2020 - 2022",
         "description": "I have created a number of logos for clients and personal projects. From sketching initial concepts, to brainstorming and then vectorising in Adobe Illustrator using a grid. The final logo is then exported in a variety of formats for use in print and digital media.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/design/logos2.png",
+          "images/portfolio/design/logos1.png",
+          "images/portfolio/design/logo5.jpg",
+          "images/portfolio/design/logo9.jpg",
+          "images/portfolio/design/logo7.png"
+
         ],
-        "url": "https://github.com",
+        
         "technologies": [
           {
             "class": "devicon-illustrator-plain",
@@ -69,29 +77,61 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
+        "company": "Ben Bagley Web Development & Design",
+        "title": "Freelance",
+        "years": "09.2021 - present",
+        "mainTech": [
+          "WordPress"
+        ],
         "technologies": [
-          "REST API",
-          "RxJS",
+          "APIs",
           "JavaScript",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
+          "HTML/CSS",
+          "PHP",
+          "React",
+          "CMS",
+          "Adobe Suite",
+          "Figma",
+          "Git"
         ]
       },
+      
+      
       {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
+        "company": "The Development Manager",
+        "title": "Software Development Bootcamp",
+        "years": "11.2022 - 01.2023",
+        "mainTech": [
+          "Software Development"
+        ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
+          "C#",
+          "Databases",
+          "MySQL",
+          "SDLC",
+          "HTML/CSS",
           "JavaScript",
-          "DHTMLX Gantt"
+          "Version Control"
+        ]
+      },
+      
+     
+     
+      {
+        "company": "Dudley College of Technology",
+        "title": "BTEC Level 3 Graphic Design",
+        "years": "09.2008 - 07.2010",
+        "mainTech": [
+          "Graphic Design"
+        ],
+        "technologies": [
+          "Web Design",
+          "Print Design",
+          "Adobe Suite",
+          "Typography",
+          "Layout",
+          "Branding"
         ]
       }
     ]
